@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+	background-color: #2a2045;
+	text-align: center;
+	max-width: 100%;
+}
+
+h1, h2, h3 {
+	margin-top: 0px;
+	font-family: Alegreya;
+	color: #fff3cb;
+	text-align: center;
+}
+
+h2, h3 {
+	font-weight: lighter;
+}
+
+h1 {
+	font-size: 33px;
+}
+h2 {
+	font-size: 25px;
+}
+
+a {
+	font-family: Alegreya, cursive;
+	color:#f8cbff;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#ffffff;
+	text-decoration: none;
+}
+
+a:active {
+	color:#ffffff;
+	text-decoration: none;
+}
+
+p {
+	text-indent: 15px;
+	font-family: Open Sans;
+	text-align: justify;
+	color: #fff3cb;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+#scoreBoardContainer{
+	max-width: 5160px;
+	height: 200px;
+	overflow: scroll;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: "fff3cb";
+	border-top: solid #000 10px;
+	border-bottom: solid #000 10px;
+	z-index: 10;
+}
+
+#crystalBall {
+	position: relative;
+	max-width: 100%;
+}
+
+#crystalBall > canvas{
+	max-width: 100%;
+	margin: auto;
+	margin-top: -70px;
+	position: absolute;
+	margin: 0px;
+}
+
+.pad {
+	padding:20px;
+}
+
+.center {
+	text-align: center;
+	margin: auto;
+}
+
+
+.content {
+	text-align: left;
+	width: 100%;
+	max-width: 750px;
+	margin: auto;
+}
+
+.icon {
+	display: inline;
+	width: 30%;
+}
+
+.miniIcon {
+	display: inline;
+	height: 20px;
+	padding-bottom: 4px;
+	vertical-align: middle;
+}
+
+.credit {
+	display: block;
+	margin: auto;
+	text-align:left;
+	width: 100px;
+}
+
+.center {
+	text-align:center
+}

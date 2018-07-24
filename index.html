@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="prophet.css" rel="stylesheet">
+        <title>Fun And Prophets</title>
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+        <meta property="og:image"
+        content="https://s3.us-east-2.amazonaws.com/fun-and-prophets/fnp_art.png">
+        <meta charset="utf-8">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+        <meta name="description"
+        content="The Video Game Prediction Podcast where we share our gifts of 100% true video game divination... and revel in our mistakes.">
+        <script>
+        (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-46705501-4', 'auto');
+        ga('send', 'pageview');
+        </script>
+        <!-- Plotly -->
+        <script src="https://cdn.plot.ly/plotly-basic-latest.min.js"></script>
+        <!-- PIXIjs -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.2/pixi.min.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="content" style="padding:0px">
+            <div id="crystalBall">
+            </div>
+            <img src="https://s3.us-east-2.amazonaws.com/fun-and-prophets/website_art.png" style="width:100%">
+        </div>
+        <div class="pad">
+            <div class="content">
+                <h1 style="margin-bottom:0px;">
+                The Video Game Prediction Podcast
+                </h1>
+                <!-- Social Buttons -->
+                <div class="center" style="max-width: 200px; margin-top: 10px; margin-bottom: 20px">
+                    <img src="./assets/facebook_tile.png" class="icon">
+                    <img src="./assets/mail_tile.png" class="icon">
+                    <a href="https://twitter.com/funandprophets" target="_blank"><img src="./assets/twitter_tile.png" class="icon"></a>
+                </div>
+
+                <h2>Marvel at our 100% true predictions of the video game future!</h2>
+                <h2>And join us in laughing at out mistakes</h2>
+                <br/>
+                <div style="position: relative; margin-bottom: 20px;">
+                    <img src="assets/scrollStart.png" style="position: absolute; top:-15px; left: 0px; z-index: 10;">
+                    <div id="scoreBoardContainer">
+                        <div id="scoreBoard">
+                        </div>
+                    </div>
+                    <img src="assets/scrollEnd.png" style="position: absolute; top:-15px; right: 0px; z-index: 10;">
+                </div>
+                <br/>
+                <br/>
+                <h1 style="margin: 0px"><u>Your Seers are</u></h1>
+                <div class="center">
+                    <div class="credit">
+                        <h2 style="display:inline;">
+                            Tom
+                        </h2>
+                        <a href="https://www.TomLum.com" target="_blank"><img class="miniIcon" src="./assets/website.png"></a>
+                        <a href="https://twitter.com/TomLumPerson" target="_blank"><img class="miniIcon" src="./assets/twitter.png">
+                        </a>
+                    </div>
+                    <div class="credit">
+                        <h2 style="display:inline;">
+                            Bea
+                        </h2>
+                    </div>
+                    <div class="credit">
+                        <h2 style="display:inline;">
+                            Ernie
+                        </h2>
+
+                        <a href="https://twitter.com/bringydingy" target="_blank"><img class="miniIcon" src="./assets/twitter.png">
+                        </a>
+                    </div>
+                </div>
+
+                <script src="scoreBoard.js">
+                </script>
+                <script src="crystalBall.js">
+                </script>
+                </canvas>
+            </div>
+        </div>
+    </body>
+</html>
