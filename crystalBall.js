@@ -1,7 +1,7 @@
 // WOOBLE THE TEXT BASED ON SINE * SIZE FACTOR
 
 const startY = 600;
-const fadeTime = 10;
+const fadeTime = 50;
 const fadeAmount = 1.1;
 const maxSize = 2;
 const rotAmount = 0.002;

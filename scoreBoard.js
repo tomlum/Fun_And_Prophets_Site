@@ -215,7 +215,7 @@ const layout = {
     font: { family: "Alegreya, cursive", size: 15 }
   },
   xaxis: {
-    autorange: true,
+    fixedrange: true,
     showgrid: false,
     // zeroline: false,
     showline: false,
@@ -224,7 +224,7 @@ const layout = {
     showticklabels: false
   },
   yaxis: {
-    autorange: true,
+    fixedrange: true,
     showgrid: false,
     zeroline: false,
     showline: false,
@@ -238,7 +238,7 @@ const layout = {
       size: 14
     },
     tracegroupgap: 20,
-    x: 1,
+    x: .98,
     y: 0.5
   }
 };
