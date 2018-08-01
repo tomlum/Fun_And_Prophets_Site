@@ -203,7 +203,7 @@ const layout = {
   height: 200,
   margin: {
     l: 100,
-    r: 200,
+    r: 50,
     b: 0,
     t: 0,
     pad: 0
@@ -240,13 +240,14 @@ const layout = {
       size: 14
     },
     tracegroupgap: 20,
-    x: .98,
+    x: .9,
     y: 0.5
   }
 };
 
 Plotly.newPlot("scoreBoard", traces, layout, { displayModeBar: false }).then(gd => {
   gd.on('plotly_legendclick', () => false)
+  gd.on('plotly_click', () => false)
 }).then(
   function() {
     document.getElementById("scoreBoardContainer").scrollTo(5000, 0);
