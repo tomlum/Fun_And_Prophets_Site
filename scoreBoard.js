@@ -22,8 +22,8 @@ const scores = [
     -2,
     2,
     `<b>Ernie</b> Ep #-1<br>
-   <i>"Death Stranding still won't<br>
-   be a game, just a video, but it<br>
+   <i>"At this E3, Death Stranding<br>
+   will just be a cinematic, but it<br>
    still wins E3"<br></i>
 <b>WRONG</b>`
   ],
@@ -81,8 +81,8 @@ const scores = [
     2,
     -2,
     `<b>Ernie</b> Ep #-1<br>
-   <i>"Nintendo will pretend like they<br>
-   never mentioned Metroid Prime at E3"<br></i>
+   <i>"At this E3, Nintendo will pretend<br>
+   like they never mentioned Metroid Prime last year"<br></i>
 <b>CORRECT</b>`
   ]
 ];
@@ -146,7 +146,7 @@ traces = [
       width: 5,
       color: colors[0]
     },
-    name: "Your Fortune Tellers",
+    name: "Your Oracles",
     symbol: "none",
     legendgroup: "person",
     showlegend: true
@@ -211,6 +211,8 @@ const layout = {
   paper_bgcolor: "#fff3cb",
   plot_bgcolor: "#fff3cb",
   displayModeBar: false,
+  scrollZoom: false,
+  staticPlot: true,
   hoverlabel: {
     font: { family: "Alegreya, cursive", size: 15 }
   },
@@ -243,7 +245,9 @@ const layout = {
   }
 };
 
-Plotly.newPlot("scoreBoard", traces, layout, { displayModeBar: false }).then(
+Plotly.newPlot("scoreBoard", traces, layout, { displayModeBar: false }).then(gd => {
+  gd.on('plotly_legendclick', () => false)
+}).then(
   function() {
     document.getElementById("scoreBoardContainer").scrollTo(5000, 0);
   }
