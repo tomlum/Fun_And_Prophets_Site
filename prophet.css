@@ -50,29 +50,19 @@ p {
 	font-weight: lighter;
 }
 
-#scoreBoardContainer{
-	max-width: 5160px;
-	height: 200px;
-	overflow: scroll;
-	margin-left: 50px;
-	margin-right: 50px;
-	background-color: "fff3cb";
-	border-top: solid #000 10px;
-	border-bottom: solid #000 10px;
-	z-index: 10;
-}
-
-#crystalBall {
-	position: relative;
+img {
 	max-width: 100%;
 }
 
-#crystalBall > canvas{
-	max-width: 100%;
+.center {
+	text-align:center
+}
+
+.content {
+	text-align: left;
+	width: 100%;
+	max-width: 750px;
 	margin: auto;
-	margin-top: -70px;
-	position: absolute;
-	margin: 0px;
 }
 
 .pad {
@@ -81,14 +71,6 @@ p {
 
 .center {
 	text-align: center;
-	margin: auto;
-}
-
-
-.content {
-	text-align: left;
-	width: 100%;
-	max-width: 750px;
 	margin: auto;
 }
 
@@ -111,6 +93,31 @@ p {
 	width: 100px;
 }
 
-.center {
-	text-align:center
+#crystalBall {
+	position: relative;
+	max-width: 100%;
+}
+
+#crystalBall > canvas{
+	max-width: 100%;
+	margin: auto;
+	margin-top: -70px;
+	position: absolute;
+	margin: 0px;
+}
+
+#scoreBoardContainer{
+	max-width: 5160px;
+	height: 200px;
+	overflow: scroll;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: "fff3cb";
+	border-top: solid #000 10px;
+	border-bottom: solid #000 10px;
+	z-index: 10;
+}
+
+#scoreBoard{
+	background-color: #fff3cb;
 }

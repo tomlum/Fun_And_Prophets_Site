@@ -21,9 +21,7 @@ window.WebFontConfig = {
 
 (function() {
 	var wf = document.createElement("script");
-	wf.src =
-		("https:" === document.location.protocol ? "https" : "http") +
-		"://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js";
+	wf.src = "./webfont.js"
 	wf.type = "text/javascript";
 	wf.async = "true";
 	var s = document.getElementsByTagName("script")[0];
@@ -99,7 +97,7 @@ function init() {
 			Super Smash Bros Ultimate\n
 			   -Ernie`,
 			"Episode 1",
-			"/episode/prequel"
+			""
 		],
 		[
 			`     Mario Tennis Aces will\n
@@ -107,21 +105,21 @@ function init() {
 			speedrunning classic\n
 			   -Bea`,
 			"Episode 1",
-			"/episode/prequel"
+			""
 		],
 		[
 			`     Black Ops 4 Vehicles\n
 			will be broken\n
 			   -Tom`,
 			"Episode 1",
-			"/episode/prequel"
+			""
 		],
 		[
 			`     Death stranding will\n
 			be delayed\n
 			   -Ernie`,
 			"Episode 1",
-			"/episode/prequel"
+			""
 		],
 		[
 			`     This time the Halo\n
@@ -129,21 +127,21 @@ function init() {
 			And be bad.\n
 			   -Tom`,
 			"Episode 2",
-			"/episode/prequel"
+			""
 		],
 		[
 			`     Master chief WILL be\n
 			in theHalo TV Show\n
 			   -Tom`,
 			"Episode 2",
-			"/episode/prequel"
+			""
 		],
 		[
 			`     EA will make a\n
 			Battlefield game for Mobile\n
 			   -Bea`,
 			"Episode 2",
-			"/episode/prequel"
+			""
 		]
 	]);
 

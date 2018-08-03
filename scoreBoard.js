@@ -212,7 +212,6 @@ const layout = {
   plot_bgcolor: "#fff3cb",
   displayModeBar: false,
   scrollZoom: false,
-  staticPlot: true,
   hoverlabel: {
     font: { family: "Alegreya, cursive", size: 15 }
   },
@@ -240,16 +239,27 @@ const layout = {
       size: 14
     },
     tracegroupgap: 20,
-    x: .9,
+    x: 0.9,
     y: 0.5
   }
 };
 
-Plotly.newPlot("scoreBoard", traces, layout, { displayModeBar: false }).then(gd => {
-  gd.on('plotly_legendclick', () => false)
-  gd.on('plotly_click', () => false)
-}).then(
-  function() {
+Plotly.newPlot("scoreBoard", traces, layout, {
+  displayModeBar: false
+}).then(function() {
+  document.getElementById("scoreBoardContainer").scrollTo(5000, 0);
+});
+
+
+window.addEventListener("touchstart", function onTouch() {
+  console.log("TOUCH")
+  
+  Plotly.newPlot("scoreBoard", traces, layout, {
+    displayModeBar: false,
+    staticPlot: true
+  }).then(function() {
     document.getElementById("scoreBoardContainer").scrollTo(5000, 0);
-  }
-);
+  });
+
+  window.removeEventListener('touchstart', onTouch, false);
+}, false);
