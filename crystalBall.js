@@ -97,7 +97,7 @@ function init() {
 			Super Smash Bros Ultimate\n
 			   -Ernie`,
 			"Episode 1",
-			""
+			"https://itunes.apple.com/us/podcast/1-big-mac-battle-royale/id1421609362?i=1000417124705&mt=2"
 		],
 		[
 			`     Mario Tennis Aces will\n
@@ -105,21 +105,21 @@ function init() {
 			speedrunning classic\n
 			   -Bea`,
 			"Episode 1",
-			""
+			"https://itunes.apple.com/us/podcast/1-big-mac-battle-royale/id1421609362?i=1000417124705&mt=2"
 		],
 		[
 			`     Black Ops 4 Vehicles\n
 			will be broken\n
 			   -Tom`,
 			"Episode 1",
-			""
+			"https://itunes.apple.com/us/podcast/1-big-mac-battle-royale/id1421609362?i=1000417124705&mt=2"
 		],
 		[
 			`     Death stranding will\n
 			be delayed\n
 			   -Ernie`,
 			"Episode 1",
-			""
+			"https://itunes.apple.com/us/podcast/1-big-mac-battle-royale/id1421609362?i=1000417124705&mt=2"
 		],
 		[
 			`     This time the Halo\n
@@ -127,21 +127,21 @@ function init() {
 			And be bad.\n
 			   -Tom`,
 			"Episode 2",
-			""
+			"https://itunes.apple.com/us/podcast/2-wheres-the-big-green-guy/id1421609362?i=1000417124704&mt=2"
 		],
 		[
 			`     Master chief WILL be\n
 			in theHalo TV Show\n
 			   -Tom`,
 			"Episode 2",
-			""
+			"https://itunes.apple.com/us/podcast/2-wheres-the-big-green-guy/id1421609362?i=1000417124704&mt=2"
 		],
 		[
 			`     EA will make a\n
 			Battlefield game for Mobile\n
 			   -Bea`,
 			"Episode 2",
-			""
+			"https://itunes.apple.com/us/podcast/2-wheres-the-big-green-guy/id1421609362?i=1000417124704&mt=2"
 		]
 	]);
 
