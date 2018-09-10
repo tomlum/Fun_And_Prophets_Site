@@ -131,7 +131,7 @@ function init() {
 		],
 		[
 			`     Master chief WILL be\n
-			in theHalo TV Show\n
+			in the Halo TV Show\n
 			   -Tom`,
 			"Episode 2",
 			"https://itunes.apple.com/us/podcast/2-wheres-the-big-green-guy/id1421609362?i=1000417124704&mt=2"
@@ -142,6 +142,30 @@ function init() {
 			   -Bea`,
 			"Episode 2",
 			"https://itunes.apple.com/us/podcast/2-wheres-the-big-green-guy/id1421609362?i=1000417124704&mt=2"
+		],
+		[
+			`     The names of game\n
+			genres will become so\n
+			self-referential they\n
+			will create a new era\n
+			of acronyms\n
+			   -Bea`,
+			"Episode 3",
+			"https://itunes.apple.com/us/podcast/3-smash-bros-shark-tank/id1421609362?i=1000418559177&mt=2"
+		],
+		[
+			`     Super Smash Bros Ultimate\n
+			will be the last Super Smash Bros\n
+			   -Ernie`,
+			"Episode 3",
+			"https://itunes.apple.com/us/podcast/3-smash-bros-shark-tank/id1421609362?i=1000418559177&mt=2"
+		],
+		[
+			`     Fallout 76 will come\n
+			back to steam within a year\n
+			   -Tom`,
+			"Episode 3",
+			"https://itunes.apple.com/us/podcast/3-smash-bros-shark-tank/id1421609362?i=1000418559177&mt=2"
 		]
 	]);
 

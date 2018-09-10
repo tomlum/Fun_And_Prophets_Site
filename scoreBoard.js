@@ -84,6 +84,14 @@ const scores = [
    <i>"At this E3, Nintendo will pretend<br>
    like they never mentioned Metroid Prime last year"<br></i>
 <b>CORRECT</b>`
+  ],
+  [
+    1,
+    -1,
+    `<b>Ernie</b> Ep #2<br>
+   <i>"Monster Hunter's PC release will<br>
+   come with new monsters"<br></i>
+<b>PARTLY CORRECT</b>`
   ]
 ];
 
