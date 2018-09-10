@@ -211,7 +211,7 @@ const layout = {
   height: 200,
   margin: {
     l: 100,
-    r: 50,
+    r: 100,
     b: 0,
     t: 0,
     pad: 0
@@ -247,7 +247,7 @@ const layout = {
       size: 14
     },
     tracegroupgap: 20,
-    x: 0.9,
+    x: 0.96,
     y: 0.5
   }
 };
